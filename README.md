@@ -1,2 +1,2 @@
 # sign-up-form
-A simple sign-up form to an imaginary website
+A simple sign-up form for an imaginary website
