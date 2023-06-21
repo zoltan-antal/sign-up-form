@@ -1,0 +1,170 @@
+@font-face {
+  font-family: 'Norse Bold';
+  src: url("assets/fonts/Norse-Bold.otf");
+}
+
+html {
+  font-size: 16px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h2 {
+  margin: 0;
+}
+
+body {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  overflow: hidden;
+}
+
+aside {
+  width: 40%;
+  position: relative;
+}
+
+.aside-image {
+  width: 100%;
+  height: 100%;
+}
+
+.logo-background {
+  width: 100%;
+  height: 20%;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-image {
+  height: 85%;
+}
+
+.logo-text {
+  font-size: 7rem;
+  font-family: 'Norse Bold';
+  color: white;
+}
+
+.aside-credit {
+  text-align: center;
+  position: absolute;
+  bottom: 5px;
+  left: 0;
+  right: 0;
+  color: white;
+  font-size: 0.9rem;
+}
+
+.aside-credit-link {
+  color: white;
+}
+
+main {
+  background-color: rgb(240, 240, 240);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.sign-up-text, .inputs, .buttons {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.sign-up-text {
+  margin-bottom: 40px;
+}
+
+.sign-up-text-line {
+  margin: 20px 0;
+}
+
+.inputs {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+.input-row {
+  display: flex;
+  justify-content: flex-start;
+  gap: 60px;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+label {
+  text-transform: uppercase;
+  font-size: 0.9rem;
+}
+
+input {
+  box-sizing: border-box;
+  width: 18rem;
+  height: 2.2rem;
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 1px solid #E5E7EB;
+}
+
+input:invalid {
+  border-color: red;
+}
+
+input:placeholder-shown {
+  border-color: #E5E7EB;
+}
+
+input:focus {
+  outline: none;
+  border-color: blue;
+  box-shadow: 2px 2px 5px lightgrey;
+}
+
+.buttons {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 20px;
+}
+
+.form-button {
+  width: 16rem;
+  height: 3.5rem;
+  border-radius: 8px;
+  border-width: 0;
+  background-color: #596D48;
+  color: white;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.form-button:hover {
+  cursor: pointer;
+}
+
+.login-link {
+  color: #596D48;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.body-text {
+  font-size: 1.1rem;
+}
