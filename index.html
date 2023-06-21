@@ -16,31 +16,48 @@
     <p class="aside-credit">Photo by <a href="https://unsplash.com/@haliewestphoto?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Halie West</a> on <a href="https://unsplash.com/photos/25xggax4bSA?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
   </aside>
   <main>
-    <h2>This is not a real online service! You know you need something like this in your life to help you realise your deepest dreams. Sign up <em>now</em> to get started.</h2>
-    <h2>You <em>know</em> you want to.</h2>
+    <div class="sign-up-text">
+      <h2>This is not a real online service! You know you need something like this in your life to help you realise your deepest dreams. Sign up <em>now</em> to get started.</h2>
+      <h2>You <em>know</em> you want to.</h2>
+    </div>
     <form>
-      <h2>Let's do this!</h2>
       <div class="inputs">
-        <label for="first-name">First name</label>
-        <input type="text" id="first-name" name="first_name">
-        
-        <label for="last-name">Last name</label>
-        <input type="text" id="last-name" name="last_name">
-
-        <label for="email">Email</label>
-        <input type="email" id="email" name="email">
-
-        <label for="phone-number">Phone number</label>
-        <input type="text" id="phone-number" name="phone_number">
-
-        <label for="password">Password</label>
-        <input type="password" id="password" name="password">
-
-        <label for="password-repeat">Confirm password</label>
-        <input type="password" id="password-repeat" name="password_repeat">
+        <h2>Let's do this!</h2>
+        <div class="input-row">
+          <div class="input">
+            <label for="first-name">First name</label>
+            <input type="text" id="first-name" name="first_name">
+          </div>
+          <div class="input">
+            <label for="last-name">Last name</label>
+            <input type="text" id="last-name" name="last_name">
+          </div>
+        </div>
+        <div class="input-row">
+          <div class="input">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email">
+          </div>
+          <div class="input">
+            <label for="phone-number">Phone number</label>
+            <input type="text" id="phone-number" name="phone_number">
+          </div>
+        </div>
+        <div class="input-row">
+          <div class="input">
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password">
+          </div>
+          <div class="input">
+            <label for="password-repeat">Confirm password</label>
+            <input type="password" id="password-repeat" name="password_repeat">
+          </div>
+        </div>
       </div>
-      <button class="form-button" type="submit">Create Account</button>
-      <p class="body-text">Already have an account? <a href="">Log in</a></p>
+      <div class="buttons">
+        <button class="form-button" type="submit">Create Account</button>
+        <p class="body-text">Already have an account? <a href="">Log in</a></p>
+      </div>
     </form>
   </main>
 </body>
